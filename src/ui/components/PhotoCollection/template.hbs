@@ -1,0 +1,5 @@
+<div class="photo-collection">
+  {{#each dates key="@index" as |date index|}}
+    <PhotoDay @date={{date}} />
+  {{/each}}
+</div>
